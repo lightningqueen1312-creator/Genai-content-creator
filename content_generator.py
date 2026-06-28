@@ -20,7 +20,7 @@ def generate_content(prompt):
         prompt,
         generation_config={
             "temperature": 0.7,
-            "max_output_tokens": 600,
+            "max_output_tokens": 1000,
         }
     )
 
