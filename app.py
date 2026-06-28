@@ -101,11 +101,7 @@ if st.button("Generate Content"):
 
         st.subheader("Generated Content")
 
-<<<<<<< HEAD
         st.markdown(content)
-=======
-        st.write(content)
->>>>>>> 41cbbf640db0a1284aab3668fe8bba63e5f21a2c
 
         # Save to file
         with open(

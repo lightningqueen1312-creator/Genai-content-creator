@@ -17,20 +17,11 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 
 def generate_content(prompt):
     response = model.generate_content(
-<<<<<<< HEAD
-    prompt,
-    generation_config={
-        "temperature": 0.8,
-        "max_output_tokens": 2048,
-    }
-)
-=======
         prompt,
         generation_config={
-            "temperature": 0.7,
-            "max_output_tokens": 1000,
+            "temperature": 0.8,
+            "max_output_tokens": 2048,
         }
     )
->>>>>>> 41cbbf640db0a1284aab3668fe8bba63e5f21a2c
 
     return response.text
